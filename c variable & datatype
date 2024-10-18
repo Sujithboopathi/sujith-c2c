@@ -1,0 +1,14 @@
+include <stdio.h>
+
+int main()
+{
+    int num = 10;
+    float decimal = 3.14;
+    char character = 'A';
+
+    printf("Integer: %d\n", num);
+    printf("Float: %f\n", decimal);
+    printf("Character: %c\n", character);
+
+    return 0;
+}

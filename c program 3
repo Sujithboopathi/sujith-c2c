@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void addNumbers() {
+    int sum = 10 + 20 + 30; 
+    printf("The sum of 10, 20, and 30 is: %d\n", sum); 
+}
+
+int main() {
+  
+    addNumbers();
+
+    return 0;
+}

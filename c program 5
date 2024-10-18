@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a = 10, b = 20, c = 30;  
+    float x = 5.5, y = 6.5;      
+    char ch = 'A';               
+    printf("Integer values:\n");
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("c = %d\n", c);
+
+    printf("\nFloat values:\n");
+    printf("x = %.2f\n", x);
+    printf("y = %.2f\n", y);
+
+    printf("\nCharacter value:\n");
+    printf("ch = %c\n", ch);
+
+    return 0; 
+}
